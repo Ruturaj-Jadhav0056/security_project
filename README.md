@@ -66,6 +66,8 @@ The traffic path through the system is a multi-step, layered process:
     If all checks pass, the request reaches the Web Application.
 
 Throughout this entire process, Nagios provides constant monitoring and alerting.
+
+
 Conclusion:
 
 This architecture creates a powerful, multi-layered security solution. By combining the application-layer intelligence of ModSecurity, the network-level deep inspection of Suricata, the host-based isolation of iptables, and the robust monitoring of Nagios, the system provides a comprehensive and proactive defense against both known and unknown threats. This setup ensures that the web application is protected from multiple vectors of attack, providing a high level of security and reliability.
